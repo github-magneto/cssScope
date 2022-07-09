@@ -1,0 +1,23 @@
+.css {
+  padding: 50px;
+  background-color: plum;
+}
+
+.css .title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.css .content {
+  padding: 50px;
+  color: blue;
+}
+
+.css #cssfoot {
+  background-color: yellow;
+}
+
+/* in css modules, use tab css selector will be used in global */
+.css p {
+  background-color: saddlebrown;
+}
