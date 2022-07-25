@@ -43,7 +43,10 @@ function RadiumCom() {
     h1: {
       fontSize: '1.5em',
       textAlign: 'center',
-      color: 'white'
+      color: 'white',
+      ':hover': {
+        color: 'green'
+      }
     }
   }
 

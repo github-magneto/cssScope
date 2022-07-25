@@ -39,7 +39,7 @@ module.exports = {
             options: {
               modules: {
                 mode: (resourcePath) => 'local',
-                auto: (resourcePath) => resourcePath.endsWith('.less'),
+                auto: (resourcePath) => true,
                 localIdentName: "[path][name]/[local]/[hash:base64:5]",
               },
             }
@@ -65,7 +65,8 @@ module.exports = {
 
               modules: {
                 mode: (resourcePath) => 'local',
-                auto: (resourcePath) => resourcePath.endsWith('.css'),
+                // auto: (resourcePath) => true,
+                auto: (resourcePath) => !resourcePath.includes('Global'),
                 localIdentName: "[path][name]/[local]/[hash:base64:5]",
 
                 // localIdentContext: path.resolve(__dirname, "src"),

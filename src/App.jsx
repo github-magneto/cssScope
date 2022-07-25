@@ -1,28 +1,29 @@
 import React from 'react'
 
-import CssMoudules from './CssMoudules'
-import CssMoudules2 from './CssMoudules2'
-import LessMoudules from './LessMoudules'
-import CssInJs from './CssInJs'
+// import CssMoudules from './CssMoudules'
+// import CssMoudules2 from './CssMoudules2'
+// import LessMoudules from './LessMoudules'
+// import CssInJs from './CssInJs'
 
+import './Global.css'
 
 function App() {
 
   return <div>
 
-    <CssInJs />
+    {/* <CssInJs /> */}
 
     <div>--------------------------------------------------</div>
 
-    <CssMoudules />
+    {/* <CssMoudules /> */}
 
     <div>--------------------------------------------------</div>
 
-    <CssMoudules2 />
+    {/* <CssMoudules2 /> */}
 
     <div>--------------------------------------------------</div>
 
-    <LessMoudules/>
+    {/* <LessMoudules/> */}
 
   </div>
 }
